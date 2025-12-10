@@ -13,6 +13,7 @@ Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Dist
 | :--- | :--- | :--- |
 | **[Redbull Spielberg Experience](https://github.com/af21-code/redbull-spielberg-experience)** | Esperienza interattiva sviluppata per l'evento Redbull. Focus su engagement utente e performance. | `Java` `HTML/CSS` |
 | **[SINTONIA](https://github.com/gianfrancobarba/SINTONIA)** | Piattaforma software per il corso di Ingegneria del Software. SINTONIA è una piattaforma digitale per la salute mentale progettata per connettere pazienti e psicologi. | `React` `NestJS` `TypeScript` |
+| **[The Knowledge Haven](https://github.com/af21-code/The-Knowledge-Haven)** | Progetto di Basi di Dati per una biblioteca scientifica. Gestione integrata di risorse fisiche (libri, sale) e piattaforma digitale per eventi streaming. | `SQL` `MySQL` |
 
 ---
 
