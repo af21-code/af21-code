@@ -25,6 +25,16 @@
 
 <br/>
 
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 🏁  AUTOMOTIVE & F1 FOCUS                              -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div align="center">
+  <img src="https://img.shields.io/badge/🏁_AUTOMOTIVE_&_F1_FOCUS-E10600?style=for-the-badge" />
+</div>
+
+<br/>
+
 ### 🏎️ F1 Overtake Prediction — *Machine Learning & Telemetria*
 
 > **Progetto di Machine Learning per predire le manovre di sorpasso in Formula 1 utilizzando dati telemetrici reali.**
@@ -43,20 +53,34 @@ Analisi avanzata di dati telemetrici F1 con pipeline completa di ML: dalla racco
 
 ---
 
-### 🧠 SINTONIA — *Piattaforma di Salute Mentale Digitale*
+### ⚙️ ADDS — *Adaptive Drivetrain Decoupling System*
 
-> **Piattaforma software completa progettata per connettere pazienti e psicologi, sviluppata per il corso di Ingegneria del Software.**
+> **Simulazione AI-assisted di dinamica veicolare per lo studio del disaccoppiamento adattivo della trasmissione.**
 
-Applicazione full-stack con architettura a microservizi. Frontend React con interfaccia utente moderna e reattiva, backend NestJS con API RESTful, autenticazione JWT e gestione sessioni terapeutiche. Progettata seguendo metodologie Agile (Scrum) con documentazione UML completa.
+ADDS è un progetto di simulazione della dinamica veicolare longitudinale che confronta due veicoli virtuali nelle stesse condizioni di guida: un veicolo convenzionale e uno dotato di sistema ADDS capace di disaccoppiare, riaccoppiare e sincronizzare il motore alla trasmissione in modo adattivo.
+
+Il progetto implementa un **simulatore fisico completo** (motore, trasmissione, frizione, aerodinamica, resistenza al rotolamento, pendenza stradale) con una **macchina a stati esplicita** a 6 modalità operative:
+
+| Modo | Descrizione |
+| :--- | :--- |
+| `CONNECTED` | Coppia motrice e freno motore passano attraverso la trasmissione |
+| `DECOUPLING` | Transizione controllata di apertura della frizione |
+| `DECOUPLED` | Il veicolo veleggia mentre il motore evolve indipendentemente |
+| `REV_MATCHING` | Velocità motore sincronizzata al target |
+| `REENGAGING` | Chiusura frizione con slip e disturbo di coppia limitati |
+| `FAULT_SAFE` | Stato di fallback conservativo per condizioni non sicure |
+
+**Approccio metodologico:** *Physics before optimization, Baselines before AI, Constraints before rewards.* Il progetto sviluppa controller deterministici di riferimento prima di introdurre pipeline di Machine Learning (behavioral cloning). Include 7 fasi di sviluppo completate, con dashboard Streamlit per la visualizzazione comparativa e sweep di robustezza.
 
 <p>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
 </p>
 
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gianfrancobarba/SINTONIA)
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/ADDS)
 
 ---
 
@@ -77,6 +101,18 @@ Web platform completa con gestione sessioni di guida F1, pacchetti personalizzab
 
 ---
 
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 🔬  DATA SCIENCE, SOFTWARE ENGINEERING & ACADEMIC       -->
+<!-- ═══════════════════════════════════════════════════════ -->
+
+<div align="center">
+  <img src="https://img.shields.io/badge/🔬_DATA_SCIENCE_&_SOFTWARE_ENGINEERING-6C63FF?style=for-the-badge" />
+</div>
+
+<br/>
+
 ### 🧬 Biological Data Regression — *Data Science & Analytics*
 
 > **Analisi di dati biologici e modelli di regressione per output continui.**
@@ -94,6 +130,23 @@ Progetto di Data Science focalizzato sull'analisi di dataset biologici complessi
 
 ---
 
+### 🧠 SINTONIA — *Piattaforma di Salute Mentale Digitale*
+
+> **Piattaforma software completa progettata per connettere pazienti e psicologi, sviluppata per il corso di Ingegneria del Software.**
+
+Applicazione full-stack con architettura a microservizi. Frontend React con interfaccia utente moderna e reattiva, backend NestJS con API RESTful, autenticazione JWT e gestione sessioni terapeutiche. Progettata seguendo metodologie Agile (Scrum) con documentazione UML completa.
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gianfrancobarba/SINTONIA)
+
+---
+
 ### 📚 The Knowledge Haven — *Database Design*
 
 > **Sistema di gestione per una biblioteca scientifica con risorse fisiche e piattaforma digitale per eventi streaming.**
@@ -106,20 +159,6 @@ Progetto di Basi di Dati con progettazione completa: analisi dei requisiti, sche
 </p>
 
 [![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/The-Knowledge-Haven)
-
----
-
-### 📊 ADDS — *Algoritmi e Strutture Dati*
-
-> **Progetto sulle strutture dati avanzate e algoritmi.**
-
-Implementazione e analisi di algoritmi e strutture dati avanzate per il corso universitario. Focus su complessità computazionale, ottimizzazione e problem solving.
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-</p>
-
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/ADDS)
 
 ---
 
