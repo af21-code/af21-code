@@ -1,37 +1,155 @@
-# Ciao, sono Angelo, benvenuto nel mio profilo! 👋
+<div align="center">
 
-### 👨‍💻 Full Stack Developer | 🎓 Studente di Informatica (3° Anno)
+# 👋 Ciao, sono Angelo!
 
-Studente di Informatica al 3° anno e sviluppatore Full Stack.
-Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Distribuiti** e **Machine Learning**, applicando le competenze accademiche in progetti reali.
+### 🎯 Full Stack Developer · 🎓 Studente di Informatica (3° Anno)
 
----
+<p>
+  <a href="mailto:angelofuscoo@pec.it"><img src="https://img.shields.io/badge/Email-angelofuscoo%40pec.it-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/af21-code"><img src="https://img.shields.io/badge/GitHub-af21--code-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-### 📂 I miei Progetti
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Machine+Learning+Enthusiast;Software+Engineering+Student;Always+learning%2C+always+building+%F0%9F%9A%80" alt="Typing SVG" />
 
-| Progetto | Descrizione | Stack Tecnologico |
-| :--- | :--- | :--- |
-| **[Redbull Spielberg Experience](https://github.com/af21-code/redbull-spielberg-experience)** | Esperienza interattiva sviluppata per l'evento Redbull. Focus su engagement utente e performance. | `Java` `HTML/CSS` |
-| **[SINTONIA](https://github.com/gianfrancobarba/SINTONIA)** | Piattaforma software per il corso di Ingegneria del Software. SINTONIA è una piattaforma digitale per la salute mentale progettata per connettere pazienti e psicologi. | `React` `NestJS` `TypeScript` |
-| **[The Knowledge Haven](https://github.com/af21-code/The-Knowledge-Haven)** | Progetto di Basi di Dati per una biblioteca scientifica. Gestione integrata di risorse fisiche (libri, sale) e piattaforma digitale per eventi streaming. | `SQL` `MySQL` |
+</div>
 
 ---
 
-### 🔭 Focus Attuale
+<br/>
 
-* **Sviluppo:** Sto lavorando attivamente su **SINTONIA** per il corso di Ingegneria del Software.
-* **Studio:**
-    * 🤖 Fondamenti di Intelligenza Artificiale (FIA)
-    * 🌐 Programmazione Distribuita
-    * 🏗️ Architetture Software
-    * 🏎️ Machine Learning
+> 💡 Studente di Informatica al 3° anno e sviluppatore Full Stack. Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Distribuiti** e **Machine Learning**, applicando le competenze accademiche a progetti reali e ambiziosi.
+
+<br/>
+
+## 🏆 Progetti in Evidenza
+
+<br/>
+
+### 🏎️ F1 Overtake Prediction — *Machine Learning & Telemetria*
+
+> **Progetto di Machine Learning per predire le manovre di sorpasso in Formula 1 utilizzando dati telemetrici reali.**
+
+Analisi avanzata di dati telemetrici F1 con pipeline completa di ML: dalla raccolta e pulizia dei dati, all'addestramento di modelli predittivi, fino alla valutazione delle performance. Utilizzo di tecniche di feature engineering su dati di velocità, posizione, pneumatici e strategia.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/f1-overtake-prediction)
 
 ---
 
-### 🛠️ Tech Stack
+### 🧠 SINTONIA — *Piattaforma di Salute Mentale Digitale*
+
+> **Piattaforma software completa progettata per connettere pazienti e psicologi, sviluppata per il corso di Ingegneria del Software.**
+
+Applicazione full-stack con architettura a microservizi. Frontend React con interfaccia utente moderna e reattiva, backend NestJS con API RESTful, autenticazione JWT e gestione sessioni terapeutiche. Progettata seguendo metodologie Agile (Scrum) con documentazione UML completa.
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gianfrancobarba/SINTONIA)
+
+---
+
+### 🚀 Redbull Spielberg Experience — *Web Platform*
+
+> **Piattaforma web per la prenotazione di esperienze di guida RedBull al circuito di Spielberg.**
+
+Web platform completa con gestione sessioni di guida F1, pacchetti personalizzabili, sistema di pagamenti sicuro e profili utente. Interfaccia utente coinvolgente con focus su engagement e performance, sviluppata con architettura MVC.
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/redbull-spielberg-experience)
+
+---
+
+### 🧬 Biological Data Regression — *Data Science & Analytics*
+
+> **Analisi di dati biologici e modelli di regressione per output continui.**
+
+Progetto di Data Science focalizzato sull'analisi di dataset biologici complessi. Implementazione di diversi modelli di regressione (lineare, polinomiale, Ridge, Lasso) per la predizione di variabili continue, con valutazione comparativa delle performance e visualizzazione dei risultati.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/biological-data-regression)
+
+---
+
+### 📚 The Knowledge Haven — *Database Design*
+
+> **Sistema di gestione per una biblioteca scientifica con risorse fisiche e piattaforma digitale per eventi streaming.**
+
+Progetto di Basi di Dati con progettazione completa: analisi dei requisiti, schema concettuale (E-R), schema logico relazionale e implementazione SQL. Gestione integrata di libri, sale studio, prenotazioni e piattaforma per eventi live streaming con utenti e relatori.
+
+<p>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=amazon-dynamodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/The-Knowledge-Haven)
+
+---
+
+### 📊 ADDS — *Algoritmi e Strutture Dati*
+
+> **Progetto sulle strutture dati avanzate e algoritmi.**
+
+Implementazione e analisi di algoritmi e strutture dati avanzate per il corso universitario. Focus su complessità computazionale, ottimizzazione e problem solving.
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/ADDS)
+
+---
+
+<br/>
+
+## 🔭 Focus Attuale
+
+<table>
+  <tr>
+    <td>🏗️ <strong>Sviluppo</strong></td>
+    <td>Sto lavorando attivamente su <strong>SINTONIA</strong> per il corso di Ingegneria del Software</td>
+  </tr>
+  <tr>
+    <td>🤖 <strong>AI & ML</strong></td>
+    <td>Fondamenti di Intelligenza Artificiale · Machine Learning</td>
+  </tr>
+  <tr>
+    <td>🌐 <strong>Distribuiti</strong></td>
+    <td>Programmazione Distribuita · Architetture Software</td>
+  </tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
+
+<div align="center">
 
 **Linguaggi Core**
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -39,7 +157,7 @@ Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Dist
 </p>
 
 **Web Development**
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -48,8 +166,43 @@ Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Dist
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
+**Data Science & ML**
+<p>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+</p>
+
+**Database & Tools**
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
+</div>
+
 ---
 
-### 📫 Contatti
+<div align="center">
 
-* 📧 **Email:** [angelofuscoo@pec.it](mailto:angelofuscoo@pec.it)
+## 📊 GitHub Stats
+
+<p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=af21-code&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=af21-code&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=af21-code&theme=tokyonight&hide_border=true" />
+
+---
+
+<img src="https://komarev.com/ghpvc/?username=af21-code&color=6C63FF&style=for-the-badge&label=PROFILE+VIEWS" />
+
+<br/><br/>
+
+*"Il codice è poesia che funziona."* ✨
+
+</div>
