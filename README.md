@@ -5,7 +5,7 @@
 ### 🎯 Full Stack Developer · 🎓 Studente di Informatica (3° Anno)
 
 <p>
-  <a href="mailto:angelofuscoo@pec.it"><img src="https://img.shields.io/badge/Email-angelofuscoo%40pec.it-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:fusco.angelo@proton.me"><img src="https://img.shields.io/badge/Email-fusco.angelo%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" /></a>
   <a href="https://github.com/af21-code"><img src="https://img.shields.io/badge/GitHub-af21--code-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
