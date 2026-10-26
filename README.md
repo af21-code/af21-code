@@ -1,15 +1,15 @@
 <div align="center">
 
-# 👋 Ciao, sono Angelo!
+# 👋 Hi, I'm Angelo Fusco!
 
-### 🎯 Full Stack Developer · 🎓 Studente di Informatica (3° Anno)
+### 🏎️ Software Engineering & Simulation Student · 🎯 Full-Stack, Vehicle Dynamics & Applied ML
 
 <p>
   <a href="mailto:fusco.angelo@proton.me"><img src="https://img.shields.io/badge/Email-fusco.angelo%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" /></a>
   <a href="https://github.com/af21-code"><img src="https://img.shields.io/badge/GitHub-af21--code-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Machine+Learning+Enthusiast;Software+Engineering+Student;Always+learning%2C+always+building+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=650&lines=Motorsport+%26+Telemetry+Software+Engineering;Vehicle+Dynamics+Simulation+%26+Applied+ML;Full-Stack+%26+Distributed+Systems+Developer;Physics+before+optimization%2C+Baselines+before+AI+%F0%9F%8F%81" alt="Typing SVG" />
 
 </div>
 
@@ -17,60 +17,42 @@
 
 <br/>
 
-> 💡 Studente di Informatica al 3° anno e sviluppatore Full Stack. Attualmente mi sto specializzando in **Ingegneria del Software**, **Sistemi Distribuiti** e **Machine Learning**, applicando le competenze accademiche a progetti reali e ambiziosi.
+> 💡 3rd-year **Computer Science Student (B.Sc.)** at the **University of Salerno (UNISA)** and Full-Stack / Simulation Software Developer. Focused on **Software Engineering**, **Distributed Systems**, **Vehicle Dynamics Simulation**, and **Machine Learning**, bridging rigorous engineering baselines with high-performance software architectures for **Motorsport & Formula 1**.
 
 <br/>
 
-## 🏆 Progetti in Evidenza
+## 🏆 Featured Projects
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
-<!-- 🏁  AUTOMOTIVE & F1 FOCUS                              -->
+<!-- 🏁  MOTORSPORT, TELEMETRY & SIMULATION                  -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/🏁_AUTOMOTIVE_&_F1_FOCUS-E10600?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🏁_MOTORSPORT,_TELEMETRY_&_SIMULATION-E10600?style=for-the-badge" />
 </div>
 
 <br/>
 
-### 🏎️ F1 Overtake Prediction — *Machine Learning & Telemetria*
-
-> **Progetto di Machine Learning per predire le manovre di sorpasso in Formula 1 utilizzando dati telemetrici reali.**
-
-Analisi avanzata di dati telemetrici F1 con pipeline completa di ML: dalla raccolta e pulizia dei dati, all'addestramento di modelli predittivi, fino alla valutazione delle performance. Utilizzo di tecniche di feature engineering su dati di velocità, posizione, pneumatici e strategia.
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
-</p>
-
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/f1-overtake-prediction)
-
----
-
 ### ⚙️ ADDS — *Adaptive Drivetrain Decoupling System*
 
-> **Simulazione AI-assisted di dinamica veicolare per lo studio del disaccoppiamento adattivo della trasmissione.**
+> **Physics-based longitudinal vehicle dynamics simulator and AI-assisted control architecture for adaptive drivetrain decoupling.**
 
-ADDS è un progetto di simulazione della dinamica veicolare longitudinale che confronta due veicoli virtuali nelle stesse condizioni di guida: un veicolo convenzionale e uno dotato di sistema ADDS capace di disaccoppiare, riaccoppiare e sincronizzare il motore alla trasmissione in modo adattivo.
+ADDS simulates and benchmarks longitudinal vehicle dynamics under identical driving profiles, comparing a conventional baseline vehicle against an ADDS-equipped vehicle capable of adaptively decoupling, speed-matching, and re-engaging the engine and transmission.
 
-Il progetto implementa un **simulatore fisico completo** (motore, trasmissione, frizione, aerodinamica, resistenza al rotolamento, pendenza stradale) con una **macchina a stati esplicita** a 6 modalità operative:
+The system implements a **complete deterministic physics engine** (ICE torque curves, transmission ratios, clutch slip dynamics, aerodynamic drag, rolling resistance, road grade) governed by an **explicit 6-state Finite State Machine (FSM)**:
 
-| Modo | Descrizione |
+| State | Operational Description |
 | :--- | :--- |
-| `CONNECTED` | Coppia motrice e freno motore passano attraverso la trasmissione |
-| `DECOUPLING` | Transizione controllata di apertura della frizione |
-| `DECOUPLED` | Il veicolo veleggia mentre il motore evolve indipendentemente |
-| `REV_MATCHING` | Velocità motore sincronizzata al target |
-| `REENGAGING` | Chiusura frizione con slip e disturbo di coppia limitati |
-| `FAULT_SAFE` | Stato di fallback conservativo per condizioni non sicure |
+| `CONNECTED` | Drive torque and engine braking transmitted directly through the drivetrain |
+| `DECOUPLING` | Controlled clutch disengagement ramp to minimize torque transients |
+| `DECOUPLED` | Free-rolling coasting phase while engine dynamics evolve independently |
+| `REV_MATCHING` | Active engine speed synchronization to target transmission input shaft RPM |
+| `REENGAGING` | Closed-loop clutch re-engagement with bounded slip and jerk constraints |
+| `FAULT_SAFE` | Conservative deterministic fallback state for unsafe or out-of-bounds conditions |
 
-**Approccio metodologico:** *Physics before optimization, Baselines before AI, Constraints before rewards.* Il progetto sviluppa controller deterministici di riferimento prima di introdurre pipeline di Machine Learning (behavioral cloning). Include 7 fasi di sviluppo completate, con dashboard Streamlit per la visualizzazione comparativa e sweep di robustezza.
+**Engineering Methodology:** *Physics before optimization, Baselines before AI, Constraints before rewards.* Built across 7 structured development stages: deterministic rule-based controllers first, followed by Machine Learning pipelines (**Behavioral Cloning**), automated unit/integration testing (**Pytest**), robustness parameter sweeps, and an interactive **Streamlit** telemetry & comparison dashboard.
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -80,15 +62,33 @@ Il progetto implementa un **simulatore fisico completo** (motore, trasmissione, 
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
 </p>
 
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/ADDS)
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/ADDS)
 
 ---
 
-### 🚀 Redbull Spielberg Experience — *Web Platform*
+### 🏎️ F1 Overtake Prediction — *Machine Learning & Race Telemetry*
 
-> **Piattaforma web per la prenotazione di esperienze di guida RedBull al circuito di Spielberg.**
+> **End-to-end Machine Learning pipeline to predict on-track overtaking maneuvers in Formula 1 using real telemetry and race strategy data.**
 
-Web platform completa con gestione sessioni di guida F1, pacchetti personalizzabili, sistema di pagamenti sicuro e profili utente. Interfaccia utente coinvolgente con focus su engagement e performance, sviluppata con architettura MVC.
+Advanced analysis of Formula 1 telemetry datasets featuring a full ML workflow: data ingestion, noise filtering, domain-specific feature engineering (pace deltas, track position, tire compound/age degradation, and pit strategy), predictive model training, and performance evaluation.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/f1-overtake-prediction)
+
+---
+
+### 🚀 Red Bull Spielberg Experience — *MVC Web Platform*
+
+> **Full-stack web application for booking track driving experiences at the Red Bull Ring in Spielberg.**
+
+Complete web platform built with the **MVC architectural pattern** in Java. Features driving session scheduling, customizable telemetry & track packages, secure payment workflows, and user profile management with a high-engagement UI.
 
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
@@ -97,44 +97,27 @@ Web platform completa con gestione sessioni di guida F1, pacchetti personalizzab
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 </p>
 
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/redbull-spielberg-experience)
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/redbull-spielberg-experience)
 
 ---
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════ -->
-<!-- 🔬  DATA SCIENCE, SOFTWARE ENGINEERING & ACADEMIC       -->
+<!-- 🔬  SOFTWARE ENGINEERING, DISTRIBUTED SYSTEMS & DATA    -->
 <!-- ═══════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/🔬_DATA_SCIENCE_&_SOFTWARE_ENGINEERING-6C63FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🔬_SOFTWARE_ENGINEERING_&_DATA_SCIENCE-6C63FF?style=for-the-badge" />
 </div>
 
 <br/>
 
-### 🧬 Biological Data Regression — *Data Science & Analytics*
+### 🧠 SINTONIA — *Microservices Full-Stack Platform*
 
-> **Analisi di dati biologici e modelli di regressione per output continui.**
+> **End-to-end digital healthcare platform engineered using Agile (Scrum) methodologies and a decoupled full-stack architecture.**
 
-Progetto di Data Science focalizzato sull'analisi di dataset biologici complessi. Implementazione di diversi modelli di regressione (lineare, polinomiale, Ridge, Lasso) per la predizione di variabili continue, con valutazione comparativa delle performance e visualizzazione dei risultati.
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-</p>
-
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/biological-data-regression)
-
----
-
-### 🧠 SINTONIA — *Piattaforma di Salute Mentale Digitale*
-
-> **Piattaforma software completa progettata per connettere pazienti e psicologi, sviluppata per il corso di Ingegneria del Software.**
-
-Applicazione full-stack con architettura a microservizi. Frontend React con interfaccia utente moderna e reattiva, backend NestJS con API RESTful, autenticazione JWT e gestione sessioni terapeutiche. Progettata seguendo metodologie Agile (Scrum) con documentazione UML completa.
+Built with a **React + TypeScript** frontend and a **NestJS** RESTful backend backed by **PostgreSQL**. Implements JWT-based authentication, role-based access control, session scheduling, and complete **UML** architectural documentation (requirements, class, sequence, and deployment diagrams).
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
@@ -143,41 +126,58 @@ Applicazione full-stack con architettura a microservizi. Frontend React con inte
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gianfrancobarba/SINTONIA)
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gianfrancobarba/SINTONIA)
 
 ---
 
-### 📚 The Knowledge Haven — *Database Design*
+### 🧬 Biological Data Regression — *Data Science & Predictive Modeling*
 
-> **Sistema di gestione per una biblioteca scientifica con risorse fisiche e piattaforma digitale per eventi streaming.**
+> **Comparative regression modeling and regularization analysis on complex continuous biological datasets.**
 
-Progetto di Basi di Dati con progettazione completa: analisi dei requisiti, schema concettuale (E-R), schema logico relazionale e implementazione SQL. Gestione integrata di libri, sale studio, prenotazioni e piattaforma per eventi live streaming con utenti e relatori.
+Implementation and benchmarking of multiple regression pipelines (Linear, Polynomial, Ridge $L_2$, and Lasso $L_1$ regularization) with cross-validation, feature scaling, residual diagnostics, and statistical visualization.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+</p>
+
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/biological-data-regression)
+
+---
+
+### 📚 The Knowledge Haven — *Relational Database Architecture*
+
+> **Relational database design and SQL implementation for an integrated scientific library and live-streaming event platform.**
+
+Full database lifecycle engineering: requirements analysis, Entity-Relationship (E-R) conceptual modeling, relational logical schema normalization, and SQL implementation with triggers, views, and optimized queries.
 
 <p>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=amazon-dynamodb&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
-[![Repo](https://img.shields.io/badge/🔗_Vai_al_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/The-Knowledge-Haven)
+[![Repo](https://img.shields.io/badge/🔗_View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/af21-code/The-Knowledge-Haven)
 
 ---
 
 <br/>
 
-## 🔭 Focus Attuale
+## 🔭 Current Focus
 
 <table>
   <tr>
-    <td>🏗️ <strong>Sviluppo</strong></td>
-    <td>Sto lavorando attivamente su <strong>SINTONIA</strong> per il corso di Ingegneria del Software</td>
+    <td>🏎️ <strong>Motorsport R&D</strong></td>
+    <td>Real-Time F1 Telemetry Pipelines, Vehicle Dynamics Simulation & Race Strategy Tooling</td>
   </tr>
   <tr>
-    <td>🤖 <strong>AI & ML</strong></td>
-    <td>Fondamenti di Intelligenza Artificiale · Machine Learning</td>
+    <td>🏗️ <strong>Software Engineering</strong></td>
+    <td>Microservices, Distributed Systems & High-Reliability Software Architectures</td>
   </tr>
   <tr>
-    <td>🌐 <strong>Distribuiti</strong></td>
-    <td>Programmazione Distribuita · Architetture Software</td>
+    <td>🤖 <strong>Applied AI & ML</strong></td>
+    <td>Physics-Informed ML, Behavioral Cloning & Predictive Telemetry Analytics</td>
   </tr>
 </table>
 
@@ -187,38 +187,39 @@ Progetto di Basi di Dati con progettazione completa: analisi dei requisiti, sche
 
 <div align="center">
 
-**Linguaggi Core**
+**Core Languages**
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
 
-**Web Development**
+**Full-Stack & Web Engineering**
 <p>
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-**Data Science & ML**
+**Simulation, Data Science & ML**
 <p>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
 </p>
 
-**Database & Tools**
+**Databases & DevOps**
 <p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 </div>
@@ -242,6 +243,6 @@ Progetto di Basi di Dati con progettazione completa: analisi dei requisiti, sche
 
 <br/><br/>
 
-*"Il codice è poesia che funziona."* ✨
+*"af21-ccode"*
 
 </div>
