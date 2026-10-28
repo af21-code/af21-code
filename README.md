@@ -21,7 +21,7 @@ Final-year Computer Science undergraduate specializing in **Software Architectur
 
 ## 🏁 Motorsport, Telemetry & Simulation Projects
 
-### [ADDS — Adaptive Drivetrain Decoupling System](https://github.com/af21-code/ADDS)
+### [ADDS — Adaptive Drivetrain Decoupling System](https://github.com/af21-code/ADDS) ![ADDS CI Tests](https://github.com/af21-code/ADDS/actions/workflows/tests.yml/badge.svg)
 **Longitudinal Vehicle Dynamics Simulator & Finite State Machine Control Architecture**
 
 Physics-based simulation framework comparing a conventional baseline drivetrain against an adaptive decoupling system (ADDS) under identical driving profiles.
