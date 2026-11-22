@@ -77,7 +77,7 @@ E-commerce and booking platform for driving experiences at the Red Bull Ring: ti
 
 ---
 
-### [Biological Data Regression](https://github.com/af21-code/biological-data-regression)
+### [Biological Data Regression](https://github.com/af21-code/biological-data-regression) ![Tests](https://github.com/af21-code/biological-data-regression/actions/workflows/tests.yml/badge.svg)
 **Regression from First Principles on Real Gene-Expression Data**
 * Simple and multiple linear regression implemented from scratch with NumPy (normal equations, optional Ridge), on NCBI GEO dataset GSE38417 (Duchenne muscular dystrophy).
 * Descriptive statistics, train/test validation, interpolation vs extrapolation and interactive outlier analysis; 30 unit tests.
