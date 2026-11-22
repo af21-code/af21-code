@@ -88,7 +88,7 @@ E-commerce and booking platform for driving experiences at the Red Bull Ring: ti
 
 ### [The Knowledge Haven](https://github.com/af21-code/The-Knowledge-Haven)
 **Relational Database Design (team of 3)**
-* Conceptual EER model, redundancy analysis and logical schema in 3NF for a scientific library with event streaming, documented in the project report.
+* Conceptual EER model, redundancy analysis, 3NF relational schema and MySQL implementation (DDL, sample data, queries) for a scientific library with event streaming, documented in the project report.
 
 `SQL` · `MySQL` · `Database Modeling`
 
