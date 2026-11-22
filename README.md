@@ -7,6 +7,7 @@
 
 <p>
   <a href="mailto:fusco.angelo@proton.me"><img src="https://img.shields.io/badge/Email-fusco.angelo%40proton.me-6D4AFF?style=flat-square&logo=protonmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/angelo-fusco-19baab287/"><img src="https://img.shields.io/badge/LinkedIn-Angelo_Fusco-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Italy_(Open_to_Relocation)-2ea44f?style=flat-square" />
 </p>
 
